@@ -1,0 +1,26 @@
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.main-logo {
+  height: 40px;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.book-now-button {
+  background-color: yellow;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+}

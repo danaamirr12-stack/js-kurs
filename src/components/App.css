@@ -1,0 +1,103 @@
+.app {
+  background-color: #faf8f8;
+  color: #7e7e7e;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.hero {
+  background-color: #03672b;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  min-height: 100px;
+  width: 100%;
+}
+
+.contact-icon {
+  position: absolute;
+  left: 10px;
+  width: 400px;
+  height: auto;
+}
+
+.social-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.main-logo {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.main-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.book-now-button {
+  background-color: #ffcc00;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  margin-left: auto;
+}
+
+.large-green-bg {
+  background-color: #03672b;
+  width: 100%;
+  min-height: 100px;
+}
+
+
+@media (max-width: 600px) {
+  .book-now-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+#home {
+  position: relative;
+}
+header h1,
+.home-title {
+  display: none;
+}

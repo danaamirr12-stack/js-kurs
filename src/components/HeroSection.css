@@ -1,0 +1,41 @@
+.storaid-section {
+  background-color: #03672b;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 400px;
+}
+
+.storaid-content {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.storaid-content h1 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #eabc03;
+  margin-left: -300px;
+}
+
+.storaid-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.storaid-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.btn.btn-warning {
+  margin-left: 0;
+  float: left;
+}

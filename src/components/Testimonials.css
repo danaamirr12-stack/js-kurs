@@ -1,0 +1,108 @@
+.testimonials {
+  padding: 70px 20px;
+  background: linear-gradient(to bottom right, #4F5D52, #3a4842);
+  text-align: center;
+}
+
+.testimonials-overtitle {
+  color: #F9D783;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 18px;
+  color: white;
+}
+
+.testimonials-undertitle {
+  color: #ddd;
+  font-size: 15px;
+  max-width: 600px;
+  margin: 0 auto 45px auto;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.recension-kort {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.stars-icon {
+  width: 95px;
+  margin-bottom: 18px;
+}
+
+.kommentar {
+  color: #555;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.recension-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.recension-info {
+  flex: 1;
+}
+
+.recension-info h3 {
+  font-size: 16px;
+  color: #222;
+  margin: 0 0 4px 0;
+}
+
+.jobb {
+  color: #999;
+  font-size: 13px;
+  margin: 0;
+}
+
+.quote-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.laddar {
+  text-align: center;
+  padding: 75px;
+  font-size: 17px;
+  color: white;
+}
+
+.fel {
+  text-align: center;
+  padding: 75px;
+  font-size: 17px;
+  color: #ffaaaa;
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover; 
+  display: block; 
+}

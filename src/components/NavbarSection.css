@@ -1,0 +1,149 @@
+.services-wrapper {
+  padding: 80px 40px;
+  background-color: #fff;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+.services-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 50px;
+  align-items: start;
+}
+
+.services-header-left h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fdcb00;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.services-header-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #03672b;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.services-header-right p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+
+.services-left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.services-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.gray-box {
+  background-color: #d9d9d9;
+  height: 300px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-label {
+  color: #666;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+
+.services-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.service-box {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  height: fit-content;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #03672b;
+  margin-bottom: 12px;
+}
+
+.service-box p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.yellow-border {
+  border-color: #fdcb00;
+  border-width: 3px;
+}
+
+
+@media (max-width: 1200px) {
+  .services-grid {
+    grid-template-columns: 300px 1fr 300px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services-header {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .services-header-left h2 {
+    font-size: 32px;
+  }
+
+  .gray-box {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-wrapper {
+    padding: 60px 20px;
+  }
+
+  .services-header-left h2 {
+    font-size: 28px;
+  }
+}
