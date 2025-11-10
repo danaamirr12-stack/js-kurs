@@ -1,35 +1,31 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
 import LogoRow from './components/LogoRow';
-import AboutUsSection from './components/AboutUsSection';
-import LogoStrip from './components/LogoStrip';
-import OurServices from './components/OurServices';
-import Testimonials from './components/Testimonials';
-import WhyChooseUs from './components/WhyChooseUs';
 import Footer from './components/Footer';
-
-const scrollToSection = (id) => {
-  const section = document.getElementById(id);
-  if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
-};
+import FooterBottom from './components/FooterBottom';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <LogoRow scrollToSection={scrollToSection} />
-      <HeroSection />
-      <AboutUsSection />
-      <LogoStrip />
-      <OurServices />
-      <Testimonials />
-      <WhyChooseUs />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Header />
+        <LogoRow />
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
+        
+        <Footer />
+        <FooterBottom />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -3,14 +3,15 @@
   color: white;
   padding: 60px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Ändrat från center */
   align-items: center;
-  text-align: center;
   min-height: 250px;
 }
 
 .about-hero-content {
   max-width: 800px;
+  text-align: left; /* Ändrat från center */
+  margin-left: 100px; /* Lägg till marginal från vänster */
 }
 
 .about-hero-content h1 {

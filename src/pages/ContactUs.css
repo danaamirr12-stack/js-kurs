@@ -1,26 +1,27 @@
-.about-hero {
+.contact-hero {
   background-color: #03672b;
   color: white;
   padding: 60px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  text-align: center;
   min-height: 250px;
 }
 
-.about-hero-content {
+.contact-hero-content {
   max-width: 800px;
+  text-align: left;
+  margin-left: 100px;
 }
 
-.about-hero-content h1 {
+.contact-hero-content h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
   font-weight: bold;
   color: white;
 }
 
-.about-hero-content p {
+.contact-hero-content p {
   font-size: 1rem;
   line-height: 1.6;
   color: white;
