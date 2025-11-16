@@ -157,3 +157,4 @@ function GetinTouch() {
 }
 
 export default GetinTouch;
+// Gjord med AI som bollplank för struktur och problemlösning

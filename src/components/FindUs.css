@@ -1,0 +1,90 @@
+.findus-section {
+  background-color: #2d5546;
+  padding: 60px 20px;
+}
+
+.findus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+}
+
+.person-box {
+  flex: 1;
+}
+
+.person-img {
+  width: 100%;
+  height: 400px;
+  background-color: #a8b8b0;
+  border-radius: 8px;
+}
+
+.info-box {
+  flex: 1;
+  color: white;
+}
+
+.info-box h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.info-box > p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #d4d4d4;
+}
+
+.contact-items {
+  margin-bottom: 40px;
+}
+
+.contact-items img {
+  display: block;
+  margin-bottom: 20px;
+  height: 70px;
+  width: auto;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+}
+
+.social-box h3 {
+  font-size: 16px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #666;
+  min-width: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  background-color: #ffc107;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 18px;
+  height: 18px;
+}

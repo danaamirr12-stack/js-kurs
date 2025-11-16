@@ -1,8 +1,4 @@
-/**
- * OurServices.jsx
- * Layout-struktur utvecklad med AI-hjälp copilot som bollplank.
- * Baserat på min egen design-spec, AI hjälpte implementera CSS Grid-layout.
- */
+
 import React from 'react';
 import './OurServices.css';
 

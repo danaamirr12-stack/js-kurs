@@ -1,6 +1,8 @@
 import React from 'react';
 import './ContactUs.css';
 import GetinTouch from '../components/GetinTouch';
+import FindUs from '../components/FindUs';
+import FAQs from '../components/FAQs';
 import Newsletter from '../components/Newsletter';
 
 function ContactUs() {
@@ -12,9 +14,9 @@ function ContactUs() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
         </div>
       </section>
-      
       <GetinTouch />
-      
+      <FindUs />
+      <FAQs />
       <Newsletter />
     </>
   );
